@@ -1,12 +1,14 @@
 body {
   margin: 0;
   display: grid;
+  min-height: 100vh;
   font-family: 'Lato', sans-serif;
-  grid-template: 50px 1fr / 20% 1fr 20%;
+  grid-template: 50px 100% / 20% 1fr 20%;
   grid-template-areas:
   'search navigation config'
   'home body contact'
 }
+/* Variables */
 .search { grid-area: search;}
 .navigation { grid-area: navigation; }
 .config { grid-area: config; }
@@ -18,6 +20,12 @@ body {
 .navigation,
 .config {
   padding: 5px;
+}
+.home,
+.body,
+.contact {
+  border: 1px solid #e5e6e9;
+  height: calc(100vh - 50px);
 }
 .logo {
   background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
@@ -46,16 +54,14 @@ body {
 .home_header a {
   text-decoration: none;
 }
-.home_body .option {
-  display: flex;
-  justify-content: center;
+.home_body div {
+  font-size: 17px;
+  margin-left: 13px;
 }
-.option-title {
-  padding-left: 20px;
+.home-content {
+  height: calc(100vh - 50px - 71px)
 }
-
-
-
-
-
-/* * { border: 1px solid red } */
+.home-footer p {
+  color: #666;
+  font-size: 12;
+}
