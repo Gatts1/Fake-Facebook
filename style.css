@@ -65,3 +65,44 @@ body {
   color: #666;
   font-size: 12;
 }
+
+.stories {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 175px;
+  background-size: cover;
+  width: 100px;
+  background-blend-mode: multiply;
+  background-color: #00000045;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: url(./images/perfil.jpg);
+  color: #fff;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.35);
+}
+
+.circle {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  background-image: url('https://dummyimage.com/50X50/ddd/ddd.jpg');
+}
+.story-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
