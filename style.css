@@ -7,7 +7,6 @@ body {
   'search navigation config'
   'home body contact'
 }
-
 .search { grid-area: search;}
 .navigation { grid-area: navigation; }
 .config { grid-area: config; }
@@ -20,7 +19,6 @@ body {
 .config {
   padding: 5px;
 }
-
 .logo {
   background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
   border-radius: 50%;
@@ -39,25 +37,20 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
-
-.home_header {
+.home-header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0 15px;
 }
-
 .home_header a {
   text-decoration: none;
 }
-
 .home_body .option {
   display: flex;
   justify-content: center;
-
 }
-
-.option_title {
+.option-title {
   padding-left: 20px;
 }
 
