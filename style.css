@@ -66,6 +66,8 @@ body {
   font-size: 12;
 }
 
+/* ================ */
+/* cards */
 .stories {
   display: flex;
   justify-content: space-around;
